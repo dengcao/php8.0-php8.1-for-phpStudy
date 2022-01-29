@@ -1,0 +1,37 @@
+
+phpstudy8.1安装php8.0.14nts和php8.1.1nts的方法
+
+安装说明：
+
+1、首先确保phpstudy 8.1（其他版本没测试，可自行测试）安装在默认目录，即：D:\phpstudy_pro\。
+     如果不是默认目录，可以自行修改php.ini文件，将里面的：extension_dir = "D:\phpstudy_pro\Extensions\php\php8.0.14nts\ext" 修改为对应的目录即可。
+
+2、直接复制php8.0.14nts和php8.1.1nts两个文件夹到：D:\phpstudy_pro\Extensions\php
+
+3、安装VC运行库：双击目录里的“VC_redist.x64--Visual Studio 2015、2017、2019 和 2022 年.exe”文件安装。
+
+4、重启phpstudy 8.1，即可选新安装的PHP版本了。
+
+PS：如果重启phpstudy后PHP8仍不可用，请确认已经安装完成VC运行库。（测试方法：可以双击php.exe看看能否运行）
+
+
+谢谢您的支持！
+
+本人博客：http://www.caozha.com
+本人微博：https://weibo.com/dengzhenhua
+Gitee：https://gitee.com/caozha              （如本软件对您有帮助，可以点Star支持一下）
+Github：https://github.com/cao-zha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
