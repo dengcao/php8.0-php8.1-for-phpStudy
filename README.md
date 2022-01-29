@@ -30,9 +30,9 @@ PS：如果重启phpstudy后PHP8仍不可用，请确认已经安装完成VC运�
 
 支持本程序，请到Gitee和GitHub给我们点Star！
 
-Gitee：https://gitee.com/caozha/caozha-admin
+Gitee：https://gitee.com/caozha/php8.0-8.1-for-phpstudy
 
-GitHub：https://github.com/cao-zha/caozha-admin
+GitHub：https://github.com/cao-zha/php8.0-php8.1-for-phpStudy
 
 谢谢您的支持！
 
