@@ -44,34 +44,50 @@ PS：如果重启phpstudy后PHP8仍不可用，请确认已经安装完成VC运�
 此外，已经针对PHP旧版本增加了临时缓解设置，以尽量减少被攻击的可能。主要更改php.ini代码设置如下：
 
 > ; ============================================
+>
 > ; PHP2Shell (CVE-2026-109618 / CVE-2026-109619) 临时缓解配置
+>
 > ; 仅用于无法立即升级时的风险降低，并非完整修复
+>
 > ; ============================================
 >
 > ; --- 针对 CVE-2026-109619 (会话状态污染) 的缓解 ---
+>
 > ; 禁用会话上传进度功能即可；不要再设 cleanup=Off
+>
 > session.upload_progress.enabled = Off
 >
 > ; 通用会话加固（PHP < 5.5.2 不识别 strict_mode，属正常）
+>
 > session.use_strict_mode = 1
+>
 > session.use_only_cookies = 1
+>
 > session.cookie_httponly = 1
 >
+>
 > ; --- 针对 CVE-2026-109618 (内存耗尽/OOM损坏) 的缓解 ---
+>
 > ; 关键：memory_limit=-1 建议在 PHP-FPM 池里用 php_admin_value 设置，
+>
 > ; 而不是只写在 php.ini，否则可能被应用 ini_set('memory_limit', ...) 覆盖
+>
 > memory_limit = -1
 >
 > ; 限制请求体大小；确保 upload_max_filesize < post_max_size
+>
 > ; 不需要上传可改为 8M
+>
 > post_max_size = 32M
 >
 > ; 输入嵌套层级；常规业务 6 一般够，复杂嵌套 API 可调到 10/16
+>
 > max_input_nesting_level = 6
 >
 > ; （仅 PHP 8.5 适用，更低版本忽略此项）关闭致命错误回溯，减少信息泄露
+>
 > ; fatal_error_backtraces = 0
-
+>
 
 
 
