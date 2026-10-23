@@ -32,6 +32,7 @@ GitHub：https://github.com/dengcao/phpStudy
 
 PS：如果重启phpstudy后PHP8仍不可用，请确认已经安装完成VC运行库。（测试方法：可以双击php.exe看看能否运行）
 
+如需要更多PHP版本，请到官网下载：https://downloads.php.net/~windows/releases/archives/
 
 
 ### 【2026-10-22 更新说明】
