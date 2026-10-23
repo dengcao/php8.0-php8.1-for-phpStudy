@@ -105,4 +105,4 @@ GitHub：https://github.com/dengcao/php8.0-php8.1-for-phpStudy
 
 开发：[邓草博客 blog.5300.cn](http://blog.5300.cn)
 
-赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [琼殿技术社区 bbs.qiongdian.com](http://bbs.qiongdian.com)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
+赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [源码社区 bbs.ym.gs](http://bbs.ym.gs)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
