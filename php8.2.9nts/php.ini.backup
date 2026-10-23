@@ -1,0 +1,19 @@
+[Date]
+date.timezone=Asia/Shanghai
+[PHP]
+max_execution_time=300
+max_input_time=60
+max_input_vars=3000
+memory_limit=256M
+upload_max_filesize=100M
+post_max_size=100M
+max_file_uploads=20
+display_errors=On
+display_startup_errors=On
+log_errors=On
+track_errors=On
+html_errors=On
+error_log=D:/phpstudy_pro/Extensions/php/php8.2.9nts.log
+error_reporting=E_ALL & ~E_NOTICE
+allow_url_fopen=On
+allow_url_include=Off
